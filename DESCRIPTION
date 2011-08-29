@@ -1,8 +1,8 @@
 Package: informR
 Type: Package
 Title: informR: R Tools for Creating Sequence Statistics
-Version: 1.0.0
-Date: 2011-04-17
+Version: 1.0.01
+Date: 2011-08-29
 Author: Christopher Steven Marcum
 Maintainer: Christopher Steven Marcum <cmarcum@uci.edu>
 Description: Tools for creating sequence statistics, especially for
@@ -11,6 +11,6 @@ Description: Tools for creating sequence statistics, especially for
 License: GPL (>= 2.0)
 Depends: abind, relevent
 LazyLoad: yes
-Packaged: 2011-07-04 20:44:27 UTC; cmarcum
+Packaged: 2011-08-30 02:35:16 UTC; cmarcum
 Repository: CRAN
-Date/Publication: 2011-07-05 08:44:05
+Date/Publication: 2011-08-30 05:37:13

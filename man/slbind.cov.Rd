@@ -25,7 +25,7 @@ If \code{names(covar$actor)} (for any and each actor) is NULL, then \code{slbind
 \author{Christopher Steven Marcum}
 \note{\code{slbind.cov} can accept \code{\link{abind}} arguments.
 }
-\seealso{\code{\link{slbind}}, \code{\link{abind}}}
+\seealso{\code{\link{slbind}}, \code{\link{abind}}, \code{\link{slbind.cond}}}
 \examples{
 rawevents<-sample(rep(c("ran","eat","stay","eat","ran","play"),50))
 actors<-rep(c("Jim","Bill","Pete"),100)

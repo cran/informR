@@ -1,0 +1,19 @@
+2011-08-28 Christopher Steven Marcum <cmarcum@uci.edu>
+
+#This file complies with 2011 GNU Documentation Standards.
+#For more information, see: 
+#http://www.gnu.org/prep/standards/standards.html#Change-Logs
+
+ChangeLog Version Notes For
+Package: informR
+Type: Package
+Title: informR: R Tools for Creating Sequence Statistics
+
+2011-04-14 
+	v.1.0.0
+		* Original release.
+
+2011-08-28
+	v.1.0.01
+		* slbind.cond (slbind.cond.R, slbind.cond.Rd): Create event-level conditional or interaction variables. New Function.
+		* slbind.cov.Rd: added a link to the new variable.

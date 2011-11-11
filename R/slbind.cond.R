@@ -9,7 +9,7 @@ slbind.cond<-function(intvar, statslist, var.suffix, sl.ind=NULL, who.evs=NULL, 
 
    if(is.null(sl.ind)){
    warning("No sufficient statistic column indices were supplied. Applying the interaction term to every (non-reference) variable.")
-   sr.ind<-1:ncol(statslist[[1]][[type]][1,,])
+   sl.ind<-1:ncol(statslist[[1]][[type]][1,,])
    }
 
    if(is.null(who.evs)){
@@ -20,13 +20,14 @@ slbind.cond<-function(intvar, statslist, var.suffix, sl.ind=NULL, who.evs=NULL, 
    sl.copy<-statslist
 
    for(i in who.evs){
-      for(j in sr.ind){
+      for(j in sl.ind){
          bplt<-statslist[[i]][[type]][,,j]
          bplt[bplt==1]<-intvar[i]
          sl.copy[[i]][[type]][,,j]<-bplt
       }
-      dimnames(sl.copy[[i]][[type]])[[3]][sr.ind]<-paste(dimnames(statslist[[i]][[type]])[[3]][sr.ind],var.suffix,sep=".")
-      sl.copy[[i]][[1]]<-abind(statslist[[i]][[1]],sl.copy[[i]][[1]][,,sr.ind],...)
+       bnames<-dimnames(sl.copy[[i]][[type]])
+       bnames[[3]]<-c(bnames[[3]],paste(dimnames(statslist[[i]][[type]])[[3]][sl.ind],var.suffix,sep="."))
+      sl.copy[[i]][[1]]<-abind(statslist[[i]][[1]],sl.copy[[i]][[1]][,,sl.ind],new.names=bnames,...)
    }
    sl.copy
 }

@@ -17,3 +17,13 @@ Title: informR: R Tools for Creating Sequence Statistics
 	v.1.0.01
 		* slbind.cond (slbind.cond.R, slbind.cond.Rd): Create event-level conditional or interaction variables. New Function.
 		* slbind.cov.Rd: added a link to the new variable.
+2011-08-31
+	v.1.0.02
+		* slbind.cond (slbind.cond.R): corrected bug so that sl.ind and sr.ind create proper indexing when sl.ind is non-null.
+		* slbind.cond (slbind.cond.R): changed how dimnames() is passed to abind() due to R's non-consistent dimnames()<-"" behavior.
+		* glb.sformlist (glb.sformlist.R, glb.sformlist.Rd): Generate global sforms from components of general sforms. New function.
+2011-11-10
+	v.1.0.03
+		* gen.sformlist (gen.sformlist.R, glb.sformlist, gen.sformlist.Rd, glb.sformlist.Rd): added functionality that allows for conditioning out the prefix of simple s-forms. Updated the how conditional s-forms are named.
+                * sfl2statslist (sfl2statslist.R, sfl2sl.Rd): Added a method to directly convert sformlists to statslists. New function.
+                * .First.lib (zzz.R): changed description printing behavior as requested by Brian Ripley.

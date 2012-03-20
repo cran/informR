@@ -1,0 +1,6 @@
+#Import some pointers
+import(utils)
+import(relevent)
+
+#Show the world the contents of your search path
+exportPattern("^[^\\.]")

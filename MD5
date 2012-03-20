@@ -1,5 +1,6 @@
-0c5672c9bcc78b8ad63b46e52de273c5 *ChangeLog
-be0af8beb2e42e9b66b7cde4917141c4 *DESCRIPTION
+57627d5f523fb56972c03c4664c9604e *ChangeLog
+6ee19366eb001bd548a772928e50cf33 *DESCRIPTION
+8977aa2e7d817db7c6ead658fb3d9481 *NAMESPACE
 71b9447909d4b74ac79166968f81281e *R/count.sform.R
 74b11afe87bcc0cee4b6e12c096e80e0 *R/gen.evl.R
 29ba22ddbf0572f7c1dc012952366cb8 *R/gen.id.R
@@ -18,9 +19,9 @@ c6d38f07983f786ad5781e9455b99a8d *R/sfl2statslist.R
 e30ca82e006b3b7a907c7ce132f71884 *R/slbind.cond.R
 59189b180b37587ba269a7c6aee363d6 *R/slbind.cov.R
 e4dd4ac8695ac591b58c4a3586b3aa68 *R/sldrop.R
-152c6dc5056d37d78ffd7e1fa1f49157 *R/zzz.R
-fc90afbc642c8d7112c87b63552cd371 *data/atus80int.rda
-bda7da03a0f0d4d71ab9eb1b51776012 *data/atus80ord.rda
+724fffab4529092cc91e3f152b39e053 *R/zzz.R
+1b195fe66238601564c971eb7cc564e4 *data/atus80int.rda
+b78422ae0604de72a79438d5bee834a8 *data/atus80ord.rda
 6fa1531dc7ddf4fe587607b50d285e06 *man/atus80int.Rd
 a35735299961793b3f3295f46f69ec94 *man/atus80ord.Rd
 c9608777f39616f7a0a4a9cb1cf295fb *man/count.sform.Rd

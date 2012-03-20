@@ -27,3 +27,10 @@ Title: informR: R Tools for Creating Sequence Statistics
 		* gen.sformlist (gen.sformlist.R, glb.sformlist, gen.sformlist.Rd, glb.sformlist.Rd): added functionality that allows for conditioning out the prefix of simple s-forms. Updated the how conditional s-forms are named.
                 * sfl2statslist (sfl2statslist.R, sfl2sl.Rd): Added a method to directly convert sformlists to statslists. New function.
                 * .First.lib (zzz.R): changed description printing behavior as requested by Brian Ripley.
+
+2012-03-20
+	v.1.0.04
+		* NAMESPACE: added a namespace.
+		* xz-compression (atus80ord.Rdata,atus80int.Rdata): Package is now built with R CMD build --resave-data which is 50% more efficient.
+		* .First.lib (zzz.R): removed. 
+		* .onLoad (zzz.R): now using packageStartupMessage as requested by Brian Ripley.

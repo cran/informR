@@ -1,7 +1,6 @@
 `slbind`<-
 function (sformstats, statslist, type = 1, new.names=FALSE,...) 
 {
-    require(abind)
     if (length(statslist) != length(sformstats)) {
         stop("\n Both objects must be the same length.")
     }

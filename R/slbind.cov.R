@@ -1,6 +1,5 @@
 slbind.cov<-function(covar, statslist, type = 1, ...) 
 {
-    require(abind)
     if (length(statslist) != length(covar)) {
         stop("\n Both objects must be the same length.")
     }

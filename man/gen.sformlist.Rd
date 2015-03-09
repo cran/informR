@@ -91,8 +91,6 @@ for(i in 1:length(sforms1.sf)){
       sforms1.sf[[i]][,,j]<-abs(sforms1.sf[[i]][,,j]-sforms2.sf[[i]][,,j])
    }
 }
-#Should be TRUE:
-all(gamma.sforms[[1]]==sforms1.sf[[1]] & gamma.sforms[[2]]==sforms1.sf[[2]] & gamma.sforms[[3]]==sforms1.sf[[3]])
 
 #Note the difference:
 gamma.sforms2<-gen.sformlist(eventlist,c("aab","abb","acc","add"))

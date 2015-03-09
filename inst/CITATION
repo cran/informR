@@ -1,0 +1,20 @@
+citHeader("To cite informR in publications use:")
+
+citEntry(entry = "Article",
+  title        = "Constructing and Modifying Sequence Statistics for {relevent} Using {informR} in {R}",
+  author       = personList(as.person("Christopher Steven Marcum"),
+                   as.person("Carter T. Butts")),
+  journal      = "Journal of Statistical Software",
+  year         = "2015",
+  volume       = "64",
+  number       = "5",
+  pages        = "1--36",
+  url          = "http://www.jstatsoft.org/v64/i05/",
+
+  textVersion  =
+  paste("Christopher Steven Marcum, Carter T. Butts (2015).",
+        "Constructing and Modifying Sequence Statistics for relevent Using informR in R.",
+        "Journal of Statistical Software, 64(5), 1-36.",
+        "URL http://www.jstatsoft.org/v64/i05/.")
+)
+

@@ -1,6 +1,10 @@
+#Use the informR object
+#useDynLib(informR)
+
 #Import some pointers
 import(utils)
 import(relevent)
+import(abind)
 
-#Show the world the contents of your search path
+#Like Sauron, I see all:
 exportPattern("^[^\\.]")

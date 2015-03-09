@@ -34,3 +34,12 @@ Title: informR: R Tools for Creating Sequence Statistics
 		* xz-compression (atus80ord.Rdata,atus80int.Rdata): Package is now built with R CMD build --resave-data which is 50% more efficient.
 		* .First.lib (zzz.R): removed. 
 		* .onLoad (zzz.R): now using packageStartupMessage as requested by Brian Ripley.
+
+2015-03-09
+	v.1.0-5
+		* CITATION: added a citation via inst/CITATION.
+		* NAMESPACE: added some directives for R-devel compliance.
+		* DESCRIPTION: updated email addresses.
+		* gen.sformlist.Rd: Corrected long line.
+		* glb.sformlist.Rd: Corrected long line.
+		* <invisible> (slbind.cond, slbind, slbind.cov): Removed require(abind) from each.

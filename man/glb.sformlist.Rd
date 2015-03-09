@@ -40,6 +40,7 @@ A notice will be issued if special regex characters are found in any sform vecto
 \seealso{\code{\link{gen.sform}},\code{\link{gen.sformlist}},\code{\link{sfl2sl}}}
 \examples{
 example(gen.sformlist)
-tb1<-glb.sformlist(eventlist,sforms=list(c("aa","bb","cc"),c("ba","ca")),new.names=c("inertia","afollows"))
+x<-list(c("aa","bb","cc"),c("ba","ca"))
+tb1<-glb.sformlist(eventlist,sforms=x,new.names=c("inertia","afollows"))
 rem(eventlist$eventlist,slbind(tb1,alpha.ints))
 }
